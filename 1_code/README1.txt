@@ -3,7 +3,7 @@ Grocery Delivery System
 Developer: Rebekah Tolliver
 
 Description:
-This project is a web-based grocery delivery system built using HTML, CSS, and JavaScript.
+This project is a web-based grocery delivery system created by using HTML, CSS, and JavaScript.
 
 Features:
 - Browse grocery products
