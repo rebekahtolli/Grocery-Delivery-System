@@ -10,7 +10,7 @@ function logout(){
   window.location.href = "login.html";
 }
 
-// Products
+// Product List
 let products = [
   {name:"Orange Juice", price:4},
   {name:"Yogurt", price:3},
