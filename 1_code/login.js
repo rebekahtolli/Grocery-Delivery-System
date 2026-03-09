@@ -50,5 +50,4 @@ document.getElementById("message").innerText =
 "Invalid email or password";
 
 }
-
 }
