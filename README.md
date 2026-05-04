@@ -1,4 +1,46 @@
-# Grocery-Delivery-System
-The Grocery Delivery System is a web-based application designed to make grocery shopping easier for busy people, families, and elderly customers. The system allows customers to browse grocery products online, add items to a shopping cart, select delivery time slots, and track their orders.
+# Grocery Delivery System
 
- [Watch Video](https://1drv.ms/v/c/7968c12dce11f180/IQDcPnNYyNJ_Q54YIapIBI-vAWUF_KBB1JTDQQ7h7HUUNfE?e=ODrofT)
+The Grocery Delivery System is a web-based application designed to simplify the process 
+of ordering groceries online. It provides users with an intuitive interface to browse 
+products, search and filter items, manage a shopping cart, and place delivery orders.
+
+## Features
+
+- User registration and login (local storage-based)
+- Product browsing with category filtering
+- Real-time product search
+- Dynamic shopping cart with quantity control
+- Automated checkout process
+- Delivery status simulation (Preparing → Out for Delivery → Delivered)
+- Order history tracking with persistent storage
+
+## Technologies Used
+
+- HTML (structure)
+- CSS (styling and layout)
+- JavaScript (logic and interactivity)
+- Browser Local Storage (data persistence)
+
+## How It Works
+
+1. Users create an account or log in
+2. Browse or search for products
+3. Add items to the shopping cart
+4. Proceed to checkout and enter delivery details
+5. The system processes the order and updates delivery status automatically
+6. Orders are saved and displayed in order history
+
+## System Requirements
+
+- Desktop or laptop
+- Modern web browser (Chrome, Edge, Firefox, Safari)
+- Internet connection
+
+## Notes
+
+- No installation required
+- Runs entirely in the browser
+- Designed as a front-end demonstration project
+
+## Demo Video
+ [Watch Video]()
