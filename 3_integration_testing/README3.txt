@@ -1,1 +1,22 @@
-No integration tests have been implemented at this moment. This project is a front-end demo using HTML, CSS, and JavaScript, and integration is demonstrated live in the browser during the demo.
+Integration Testing
+
+No automated integration testing framework has been implemented for this project.
+
+Reason:
+This project is a client-side web application without a backend API or multiple 
+integrated services.
+
+Testing Approach Used:
+Integration between components was tested manually in the browser, including:
+- Interaction between product listing and cart system
+- Checkout process and order creation
+- Delivery status updates and order history display
+- Data persistence using local storage across page reloads
+
+Results:
+All major components work together correctly, and the system behaves as expected 
+during end-to-end user interaction.
+
+Future Improvements:
+Integration testing tools or a backend system could be introduced to support 
+automated testing across components.
