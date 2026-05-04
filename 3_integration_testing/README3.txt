@@ -16,7 +16,3 @@ Integration between components was tested manually in the browser, including:
 Results:
 All major components work together correctly, and the system behaves as expected 
 during end-to-end user interaction.
-
-Future Improvements:
-Integration testing tools or a backend system could be introduced to support 
-automated testing across components.
