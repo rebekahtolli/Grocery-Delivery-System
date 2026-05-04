@@ -43,4 +43,4 @@ products, search and filter items, manage a shopping cart, and place delivery or
 - Designed as a front-end demonstration project
 
 ## Demo Video
- [Watch Video](https://1drv.ms/f/c/7968c12dce11f180/IgBXsk5ieIL_RIl-dIDl_H3uAcuT0USTrk1yTPVFr4UAvKs?e=zJ5JSE)
+ [Watch Video]('https://1drv.ms/f/c/7968c12dce11f180/IgBXsk5ieIL_RIl-dIDl_H3uAcuT0USTrk1yTPVFr4UAvKs?e=zJ5JSE')
