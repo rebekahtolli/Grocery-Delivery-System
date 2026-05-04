@@ -80,3 +80,8 @@ button {
 .login-container button {
   width: 100%;
 }
+
+#categories button.active {
+  background-color: #1b5e20;
+  border: 2px solid #0d3b12;
+}
