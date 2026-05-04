@@ -14,6 +14,3 @@ Data Handling:
 Purpose:
 Local storage is used to simulate a database for demonstration and testing purposes.
 
-Future Improvements:
-A real-world version of this system could integrate external APIs or a backend database 
-to handle live product data and user information securely.
