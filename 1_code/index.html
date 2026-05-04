@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--
-Rebekah Tolliver
-Spring Semester, 2026
--->
 <html>
 <head>
   <title>Grocery Delivery System</title>
@@ -20,6 +16,22 @@ Spring Semester, 2026
 </header>
 
 <div class="container">
+
+  <input type="text" id="searchBar" placeholder="Search products..." onkeyup="searchProducts()">
+
+  <h2>Categories</h2>
+  <div id="categories">
+    <button onclick="filterCategory('All')">All</button>
+    <button onclick="filterCategory('Dairy')">Dairy</button>
+    <button onclick="filterCategory('Meat')">Meat</button>
+    <button onclick="filterCategory('Fruits')">Fruits</button>
+    <button onclick="filterCategory('Vegetables')">Vegetables</button>
+    <button onclick="filterCategory('Pantry')">Pantry</button>
+    <button onclick="filterCategory('Snacks')">Snacks</button>
+    <button onclick="filterCategory('Drinks')">Drinks</button>
+    <button onclick="filterCategory('Frozen')">Frozen</button>
+  </div>
+
   <h2>Products</h2>
   <div id="product-list" class="products"></div>
 
@@ -27,27 +39,30 @@ Spring Semester, 2026
   <ul id="cart"></ul>
   <h3>Total: $<span id="total">0</span></h3>
   <button onclick="checkout()">Checkout</button>
+
+  <h2>Order History</h2>
+  <ul id="orderHistory"></ul>
+
 </div>
 
-<!-- Checkout Form -->
+<!-- Checkout -->
 <div id="checkoutForm" class="checkout-form hidden">
   <h3>Checkout</h3>
-  <p>Enter delivery details:</p>
   <input id="customerName" placeholder="Full Name">
   <input id="customerAddress" placeholder="Delivery Address">
-  <label for="deliveryTime">Delivery Time Slot:</label>
+
   <select id="deliveryTime">
-    <option value="9am-12pm">9am - 12pm</option>
-    <option value="12pm-3pm">12pm - 3pm</option>
-    <option value="3pm-6pm">3pm - 6pm</option>
+    <option>9am - 12pm</option>
+    <option>12pm - 3pm</option>
+    <option>3pm - 6pm</option>
   </select>
+
   <button onclick="confirmCheckout()">Place Order</button>
   <button onclick="cancelCheckout()">Cancel</button>
 </div>
 
-<!-- Order Confirmation -->
 <div id="orderConfirmation" class="checkout-form hidden">
-  <h3>Thank you! Your order has been placed.</h3>
+  <h3>Order Placed!</h3>
   <p id="orderSummary"></p>
   <button onclick="closeConfirmation()">Close</button>
 </div>
