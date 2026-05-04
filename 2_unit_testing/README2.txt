@@ -1,1 +1,17 @@
-No unit tests have been implemented at this moment because this project is fully front-end (HTML/CSS/JS) and does not have a backend or automated testing framework as of yet.
+Unit Testing
+
+Currently, no formal unit testing framework has been implemented for this project.
+
+Reason:
+This application is a front-end system built using HTML, CSS, and JavaScript without 
+a backend or testing library such as Jest or Mocha.
+
+Testing Approach Used:
+- Manual testing was performed for all core features
+- Functions such as product filtering, cart updates, and checkout logic were tested 
+  directly in the browser
+- Edge cases were tested, including:
+  - Empty cart checkout
+  - Invalid login attempts
+  - Missing checkout fields
+
